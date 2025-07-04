@@ -21,12 +21,13 @@ export const menuData = {
                             { "title": "CMS Workspace", "href": "/sites/cms" },
                             { "title": "Course Evaluations", "href": "/sites/courseevaluations" },
                             { "title": "CPC Career Services for Current J.D. Students", "href": "/sites/careerservicesforcurrentjdstudents" },
+                            { "title": "CPC Career Services for Current J.D. Students", "href": "/sites/careerservicesforcurrentjdstudents_old" },
                         ]
                     },
                     {
                         "title": "",
                         "items": [
-                            { "title": "CPC Career Services for Current J.D. Students", "href": "/sites/careerservicesforcurrentjdstudents_old" },
+                           
                             { "title": "CPC Career Services for J.D. Alumni", "href": "/sites/careerservicesforjdalumni" },
                             { "title": "CPC Career Services for J.D. Alumni", "href": "/sites/careerservicesforjdalumni_old" },
                             { "title": "CPC Staff Workspace", "href": "/sites/cpcworkspace" },
@@ -39,13 +40,13 @@ export const menuData = {
                             { "title": "Exam4 Registration, Proctoring, and Scheduling App", "href": "/sites/erpsa" },
                             { "title": "Examinations", "href": "/sites/examinations" },
                             { "title": "Externship Evaluations", "href": "/sites/externshipevaluations" },
+                            { "title": "Faculty Connect", "href": "/sites/facultyconnect" },
+                            { "title": "Faculty Support Workspace", "href": "/sites/facultysupport" },
                         ]
                     },
                     {
                         "title": "",
                         "items": [
-                            { "title": "Faculty Connect", "href": "/sites/facultyconnect" },
-                            { "title": "Faculty Support Workspace", "href": "/sites/facultysupport" },
                             { "title": "Financial Aid Resources", "href": "/sites/financialaidresources" },
                             { "title": "Financial Aid Staff Workspace", "href": "/sites/financialaidworkspace" },
                             { "title": "Flex Time Manager", "href": "/sites/comptimemanager" },
@@ -57,16 +58,16 @@ export const menuData = {
                             { "title": "Help Desk Staff Workspace", "href": "/sites/helpdeskworkspace" },
                             { "title": "House 1/2", "href": "/sites/house1-2" },
                             { "title": "House 3/4", "href": "/sites/house3-4" },
-                        ]
-                    },
-                    {
-                        "title": "",
-                        "items": [
                             { "title": "House 5/6", "href": "/sites/house5-6" },
                             { "title": "House 7/8", "href": "/sites/house7-8" },
                             { "title": "House 9 (Evening Division)", "href": "/sites/house-evedivision" },
                             { "title": "House 9/10 (deactivated)", "href": "/sites/house9-10" },
                             { "title": "ILJ Volume 45 Workspace", "href": "/sites/iljvolume45" },
+                        ]
+                    },
+                    {
+                        "title": "",
+                        "items": [
                             { "title": "ILJ Volume 46 Workspace", "href": "/sites/iljvolume46" },
                             { "title": "ILJ Volume 47 Workspace", "href": "/sites/iljvolume47" },
                             { "title": "ILJ Volume 48 Workspace", "href": "/sites/iljvolume48" },
@@ -75,44 +76,32 @@ export const menuData = {
                             { "title": "IPLJ Volume XXXIII Workspace (deactivated)", "href": "/sites/ipljvolumexxxiii" },
                             { "title": "J.D. Admissions Staff Workspace", "href": "/sites/jdadmissionsworkspace" },
                             { "title": "J.D. Concentrations", "href": "/sites/jdconcentrations" },
-                        ]
-                    },
-                    {
-                        "title": "",
-                        "items": [
                             { "title": "J.D. Curriculum Guide", "href": "/sites/jdcurriculumguide" },
                             { "title": "J.D. Externships", "href": "/sites/jdexternships" },
-                            { "title": "J.D. Graduation Audit", "href": "/sites/jdgraduationaudit" },
-                            { "title": "JCFL Volume XXIX Workspace", "href": "/sites/jcflvolumexxix" },
-                            { "title": "JCFL Volume XXVII Workspace", "href": "/sites/jcflvolumexxvii" },
-                            { "title": "JCFL Volume XXVIII Workspace", "href": "/sites/jcflvolumexxviii" },
-                            { "title": "JCFL Volume XXX Workspace", "href": "/sites/jcflvolumexxx" },
-                            { "title": "Legal English Institute (deactivated)", "href": "/sites/legalenglishinstitute" },
-                            { "title": "Legal Writing and Lawyering Staff Workspace", "href": "/sites/legalwritingworkspace" },
-                            { "title": "Marcomm Staff Workspace", "href": "/sites/marcomstaffworkspace" },
-                            { "title": "Mental Health and Wellness Resources", "href": "/sites/mentalhealthandwellness" },
-                            { "title": "Named Scholarships Workspace", "href": "/sites/namedscholarships" },
-                            { "title": "Office of Finance Staff Workspace", "href": "/sites/financeworkspace" },
+                            { "title": 'J.D. Graduation Audit', "href": '/sites/jdgraduationaudit' },
+                            { "title": 'JCFL Volume XXIX Workspace', "href": '/sites/jcflvolumexxix' },
+                            { "title": 'JCFL Volume XXVII Workspace', "href": '/sites/jcflvolumexxvii' },
+                            { "title": 'JCFL Volume XXVIII Workspace', "href": '/sites/jcflvolumexxviii' },
                         ]
                     },
                     {
                         "title": "",
                         "items": [
-                            { "title": "Office of Professionalism", "href": "/sites/professionalism" },
-                            { "title": "Office of Student Affairs Staff Workspace", "href": "/sites/officeofstudentaffairsworkspace" },
-                            { "title": "OPP Staff Workspace", "href": "/sites/oppworkspace" },
-                            { "title": "PIRC Staff Workspace", "href": "/sites/pircstaffworkspace" },
-                            { "title": "Public Interest Resource Center", "href": "/sites/pirc" },
-                            { "title": "Registrar Staff Workspace", "href": "/sites/registrarworkspace" },
-                            { "title": "Student Affairs Staff Workspace", "href": "/sites/studentaffairsworkspace" },
-                            { "title": "Student Bar Association", "href": "/sites/sba" },
-                            { "title": "Student Organizations", "href": "/sites/studentorganizations" },
-                            { "title": "Summer Programs", "href": "/sites/summerprograms" },
-                            { "title": "Technology Staff Workspace", "href": "/sites/technologyworkspace" },
-                            { "title": "Urban Law Journal Volume 50 Workspace", "href": "/sites/ulj50" },
-                            { "title": "Writing and Academic Success Program", "href": "/sites/wasp" }
+                            
+                            { "title": 'JCFL Volume XXX Workspace', "href": '/sites/jcflvolumexxx' },
+                            { "title": 'Legal English Institute (deactivated)', "href": '/sites/legalenglishinstitute' },
+                            { "title": 'Legal Writing and Lawyering Staff Workspace', "href": '/sites/legalwritingworkspace' },
+                            { "title": 'Marcomm Staff Workspace', "href": '/sites/marcomstaffworkspace' },
+                            { "title": 'Mental Health and Wellness Resources', "href": '/sites/mentalhealthandwellness' },
+                            { "title": 'Named Scholarships Workspace', "href": '/sites/namedscholarships' },
+                            { "title": 'Office of Finance Staff Workspace', "href": '/sites/financeworkspace' },
+                            { "title": 'Office of Professionalism', "href": '/sites/professionalism' },
+                            { "title": 'Office of Student Affairs Staff Workspace', "href": '/sites/officeofstudentaffairsworkspace' },
+                            { "title": 'OPP Staff Workspace', "href": '/sites/oppworkspace' },
+                            { "title": 'PIRC Staff Workspace', "href": '/sites/pircstaffworkspace' },
                         ]
-                    }
+                    },
+                  
                 ]
             }
         },
