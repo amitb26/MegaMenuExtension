@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { sharepointService, MenuData } from '../services/sharepointService';
+import { sharepointDocumentService, MenuData } from '../services/sharepointDocumentService';
 
 interface UseMenuDataReturn {
   menuData: MenuData | null;
@@ -17,7 +17,7 @@ export const useMenuData = (): UseMenuDataReturn => {
     try {
       setLoading(true);
       setError(null);
-      const data = await sharepointService.getMenuData();
+      const data = await sharepointDocumentService.getMenuData();
       setMenuData(data);
     } catch (err) {
       const errorMessage = err instanceof Error ? err.message : 'Failed to load menu data';

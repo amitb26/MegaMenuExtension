@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styles from './MainMenu.module.scss';
 import { useMenuData } from '../hooks/useMenuData';
-import type { NavigationItem } from '../services/sharepointService';
+import type { NavigationItem } from '../services/sharepointDocumentService';
 
 export interface IMegaMenuComponentState {
   activeMenu: string | null;
