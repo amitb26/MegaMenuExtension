@@ -99,6 +99,10 @@ export const menuData = {
                             { "title": 'Office of Student Affairs Staff Workspace', "href": '/sites/officeofstudentaffairsworkspace' },
                             { "title": 'OPP Staff Workspace', "href": '/sites/oppworkspace' },
                             { "title": 'PIRC Staff Workspace', "href": '/sites/pircstaffworkspace' },
+                            { "title": 'Pro Bono Scholars Program', "href": '/sites/probonoscholarsprogram' },
+                            { "title": 'Professionalism Staff Workspace', "href": '/sites/professionalismstaff' },
+                            { "title": 'Public Interest Resource Center', "href": '/sites/publicinterestresourcecenter' },
+                            { "title": 'Public Interest Resource Center', "href": '/sites/publicinterestresourcecenter_old' },
                         ]
                     },
                   
