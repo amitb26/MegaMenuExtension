@@ -83,8 +83,7 @@ export default class MegaMenuComponent extends React.Component<{}, IMegaMenuComp
       <nav className={styles.megaMenu}>
         <div className={styles.container}>
           <div className={styles.header}>
-
-            {/* Desktop Navigation */}
+            {/* Desktop Navigation - positioned at the very start */}
             <div className={styles.desktopNav}>
               {navigation.map((item) => (
                 <div
@@ -110,7 +109,7 @@ export default class MegaMenuComponent extends React.Component<{}, IMegaMenuComp
               ))}
             </div>
 
-            {/* Mobile Menu Button */}
+            {/* Mobile Menu Button - positioned at the end */}
             <div className={styles.mobileMenuButton}>
               <button
                 onClick={this.toggleMobileMenu}
