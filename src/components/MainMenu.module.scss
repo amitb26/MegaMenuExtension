@@ -15,7 +15,7 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start; /* Always align to left */
   height: 64px;
   padding: 0 16px;
 
@@ -41,9 +41,9 @@
   display: none;
   align-items: center;
   gap: 4px;
-  width: 100%;
-  margin-left:-55px;
-  justify-content: flex-start; // Align items to the left
+  width: auto; /* Changed from 100% to auto */
+  margin-left: 0; /* Reset margin */
+  justify-content: flex-start; /* Keep left alignment */
 
   @media (min-width: 768px) {
     display: flex;
@@ -56,6 +56,7 @@
 
 .navItem {
   position: relative;
+  flex-shrink: 0; /* Prevent items from shrinking */
 }
 
 .navButton {
@@ -94,6 +95,7 @@
 
 .mobileMenuButton {
   display: block;
+  margin-left: auto; /* Push mobile button to the right */
 
   @media (min-width: 768px) {
     display: none;
