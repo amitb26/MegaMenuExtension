@@ -83,10 +83,6 @@ export default class MegaMenuComponent extends React.Component<{}, IMegaMenuComp
       <nav className={styles.megaMenu}>
         <div className={styles.container}>
           <div className={styles.header}>
-            {/* Logo/Brand */}
-            <div className={styles.brand}>
-              <span className={styles.brandText}>Fordham|LawNET</span>
-            </div>
 
             {/* Desktop Navigation */}
             <div className={styles.desktopNav}>
