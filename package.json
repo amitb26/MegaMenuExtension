@@ -1,34 +1,40 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "mega-menu-extension",
+  "version": "0.0.1",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=8.17.0 <9.0.0 || >=10.15.1 <11.0.0"
+  },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "build": "gulp bundle",
+    "clean": "gulp clean",
+    "test": "gulp test",
+    "serve": "gulp bundle --custom-serve && gulp serve",
+    "package-solution": "gulp bundle --ship && gulp package-solution --ship"
   },
   "dependencies": {
-    "lucide-react": "^0.344.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "@microsoft/sp-application-base": "1.4.0",
+    "@microsoft/sp-core-library": "1.4.0",
+    "@microsoft/sp-http": "1.4.0",
+    "@microsoft/sp-lodash-subset": "1.4.0",
+    "@microsoft/sp-office-ui-fabric-core": "1.4.0",
+    "@types/webpack-env": "1.13.1",
+    "react": "15.6.2",
+    "react-dom": "15.6.2"
   },
   "devDependencies": {
-    "@eslint/js": "^9.9.1",
-    "@types/react": "^18.3.5",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
-    "autoprefixer": "^10.4.18",
-    "eslint": "^9.9.1",
-    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
-    "eslint-plugin-react-refresh": "^0.4.11",
-    "globals": "^15.9.0",
-    "postcss": "^8.4.35",
-    "sass-embedded": "^1.69.5",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.5.3",
-    "typescript-eslint": "^8.3.0",
-    "vite": "^5.4.2"
+    "@microsoft/sp-build-web": "1.4.0",
+    "@microsoft/sp-module-interfaces": "1.4.0",
+    "@microsoft/sp-webpart-workbench": "1.4.0",
+    "@types/chai": "3.4.34",
+    "@types/mocha": "2.2.38",
+    "@types/react": "15.6.6",
+    "@types/react-dom": "15.5.6",
+    "ajv": "~5.2.2",
+    "gulp": "~3.9.1"
+  },
+  "resolutions": {
+    "@types/react": "15.6.6"
   }
 }
