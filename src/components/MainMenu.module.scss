@@ -4,7 +4,6 @@
   color: white;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   z-index: 1000;
-  border-bottom: 3px solid #dc2626; /* Red line at bottom */
 }
 
 .container {
@@ -15,7 +14,7 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* Always align to left */
+  justify-content: space-between;
   height: 64px;
   padding: 0 16px;
 
@@ -41,9 +40,9 @@
   display: none;
   align-items: center;
   gap: 4px;
-  width: auto; /* Changed from 100% to auto */
-  margin-left: 0; /* Reset margin */
-  justify-content: flex-start; /* Keep left alignment */
+  width: 100%;
+  margin-left:-55px;
+  justify-content: flex-start; // Align items to the left
 
   @media (min-width: 768px) {
     display: flex;
@@ -56,7 +55,6 @@
 
 .navItem {
   position: relative;
-  flex-shrink: 0; /* Prevent items from shrinking */
 }
 
 .navButton {
@@ -95,7 +93,6 @@
 
 .mobileMenuButton {
   display: block;
-  margin-left: auto; /* Push mobile button to the right */
 
   @media (min-width: 768px) {
     display: none;
@@ -131,8 +128,9 @@
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
   border-top: 1px solid #e5e7eb;
   z-index: 40;
-  max-height: 70vh;
+  max-height: 75vh;
   overflow-y: auto;
+  border-bottom: 3px solid #dc2626;
 
   @media (min-width: 768px) {
     display: block;
@@ -179,11 +177,6 @@
   @media (min-width: 1200px) {
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
-  }
-
-  @media (min-width: 1400px) {
-    grid-template-columns: repeat(6, 1fr);
-    gap: 18px;
   }
 }
 
