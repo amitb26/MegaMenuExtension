@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-extension-manifest.schema.json",
+  "id": "12345678-1234-1234-1234-123456789013",
+  "alias": "MegaMenuApplicationCustomizer",
+  "componentType": "Extension",
+  "extensionType": "ApplicationCustomizer",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Mega Menu" },
+    "description": { "default": "Mega Menu Application Customizer" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "testMessage": "Test message"
+    }
+  }]
+}
